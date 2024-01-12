@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: lightsalmon;
+}
+
+/* Header & Footer*/
+
+nav {
+    background-color: teal;
+    padding-top: 1rem;
+}
+
+nav a {
+    color: lightsalmon;
+}
+
+nav ul {
+    padding-left: 2.5rem;
+}
+
+nav li {
+    padding: 0.6rem 1.5rem;
+    margin: 0 1.5rem 0 0;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 640px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        text-decoration: underline;
+    }
+}
+
+/* Banner */
+
+.banner {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('./images/chander-r-z4WH11FMfIQ-unsplash.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: coral;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+/* Meetup */
+
+.meetup {
+    padding: 0 1rem;
+    margin: 4rem 0;
+}
+
+.meetup h2 {
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1.2rem 0;
+}
+
+.meetup p {
+    color: white;
+    margin: 1rem 0;
+}
+
+.meetup a {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/* Photos */
+
+.photos {
+    display: flex;
+    margin: 4rem 0;
+}
+
+.photos img {
+    width: 30%;
+    margin: 1.5%
+}
+
+@media only screen and (max-width: 640px) {
+    .photos {
+        flex-direction: column;
+    }
+
+
+    .photos img {
+        width: 100%;
+        margin: 1.5% 0;
+    }
+}
+
+
+/* Quote */
+
+.quote {
+    background-color: teal;
+    height: 20rem;
+    padding: 1rem 1rem 0 1rem;
+    margin: 4rem 0;
+}
+
+.quote h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+    color: yellow;
+    padding: 1.5rem 0;
+}
+
+.quote h4 {
+    color: yellow;
+}
+
+/* Join us */
+
+.join-us {
+    text-align: center;
+    margin: 4rem 1rem;
+}
+
+.join-us h2 {
+    color: yellow;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 1.5rem 0;
+}
+
+.join-us img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+    .join-us img {
+        width: 66%;
+    }
+} 
